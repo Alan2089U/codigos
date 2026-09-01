@@ -21,6 +21,7 @@ int main(){
     }else{
         printf("Esse sinal nao existe.");
     }
-    printf("O resultado e: %lf", r);
+    printf("O resultado e: %.2lf", r);
+
     return 0;
 }
