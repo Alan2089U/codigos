@@ -1,0 +1,103 @@
+1-)
+Algoritmo "Exercicio1"
+Var
+   n1, n2: inteiro
+Inicio
+   Escreval("Digite dois numeros inteiros:")
+   Leia(n1, n2)
+   Escreval("Soma: ", n1 + n2)
+   Escreval("Subtracao: ", n1 - n2)
+   Escreval("Multiplicacao: ", n1 * n2)
+   Se n2 <> 0 Entao
+      Escreval("Divisao: ", n1 / n2)
+   Senao
+      Escreval("Divisao por zero")
+   FimSe
+Fimalgoritmo
+
+2-)
+Algoritmo "Exercicio2"
+Var
+   c, f: real
+Inicio
+   Escreval("Digite a temperatura em Celsius:")
+   Leia(c)
+   f <- c * 9 / 5 + 32
+   Escreval("Fahrenheit: ", f)
+Fimalgoritmo
+
+3-)
+Algoritmo "Exercicio3"
+Var
+   base, altura, area: real
+Inicio
+   Escreval("Digite a base do retangulo:")
+   Leia(base)
+   Escreval("Digite a altura do retangulo:")
+   Leia(altura)
+   area <- base * altura
+   Escreval("Area: ", area)
+Fimalgoritmo
+
+4-)
+Algoritmo "Exercicio4"
+Var
+   num: inteiro
+Inicio
+   Escreval("Digite um numero inteiro:")
+   Leia(num)
+   Se num % 2 = 0 Entao
+      Escreval("O numero e par.")
+   Senao
+      Escreval("O numero e impar.")
+   FimSe
+Fimalgoritmo
+
+5-)
+Algoritmo "Exercicio5"
+Var
+   idade: inteiro
+Inicio
+   Escreval("Digite a idade:")
+   Leia(idade)
+   Se idade >= 18 Entao
+      Escreval("Maior de idade.")
+   Senao
+      Escreval("Menor de idade.")
+   FimSe
+Fimalgoritmo
+
+6-)
+Algoritmo "Exercicio6"
+Var
+   n1, n2, resultado: real
+   op: caractere
+Inicio
+   Escreval("Digite o primeiro numero:")
+   Leia(n1)
+   Escreval("Digite o segundo numero:")
+   Leia(n2)
+   Escreval("Digite a operacao (+, -, *, /):")
+   Leia(op)
+   
+   Escolha op
+      Caso "+"
+         resultado <- n1 + n2
+         Escreval("Resultado: ", resultado)
+      Caso "-"
+         resultado <- n1 - n2
+         Escreval("Resultado: ", resultado)
+      Caso "*"
+         resultado <- n1 * n2
+         Escreval("Resultado: ", resultado)
+      Caso "/"
+         Se n2 <> 0 Entao
+            resultado <- n1 / n2
+            Escreval("Resultado: ", resultado)
+         Senao
+            Escreval("Erro: divisao por zero.")
+         FimSe
+      OutroCaso
+         Escreval("Operacao invalida.")
+   FimEscolha
+Fimalgoritmo
