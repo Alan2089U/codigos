@@ -66,3 +66,11 @@ Me chamo João Pedro de Oliveira Almeida, tenho 18 anos e sou natural de São Pa
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg"
 />
+<img 
+    align="left" 
+    alt="Delphi" 
+    title="Delphi"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/delphi/delphi-original.svg" />
+          
